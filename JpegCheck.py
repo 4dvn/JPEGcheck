@@ -1,5 +1,5 @@
 import os
-def checkifjpeg(fp):
+def jpegcheck(fp):
 	file = open(fp,'rb')
 	bytevals = file.read()
 	hexvals = bytevals.hex()
